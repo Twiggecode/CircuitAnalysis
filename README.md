@@ -1,4 +1,7 @@
 # CircuitAnalysis
+
+### Please note, as this was a university project, we were restricted with the libraries we were allowed to use, resulting in some overcomplicated solutions for certain problems regarding formatting files.
+
 University Python project that analyses an input file that represents a cascade circuit, calculating output data and displaying the output data in an output file.
 
 The main file is 'code.py'. The files 'circuitsort.py', 'prefixcalc', 'prefixcalcinv' and 'ABCDmatrixcalc' are functions that are implemented within 'code.py'.
