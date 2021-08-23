@@ -53,7 +53,7 @@ if sys.argv[1]=='-i': # extended command line format detected
             timeflag=1 # set timeflag = 1 to tell program that the output is a time response
             
     except:
-        print('do nothing')
+        pass
 
 
 else: # else standard command line format
