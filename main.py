@@ -15,10 +15,17 @@ My program will process the data from the input file, calculating the ABCD matri
 of various quantities of the cascade circuit such as the output power, output voltage, voltage gain and many more quantities. The quantities will be calculated for various 
 source frequencies, they will then be formatted and displayed in an output file.
 
-To run the program, you must use a command line argument. The program accepts two formats for the command line argument. The standard format is: python main.py test.net test.out
+To run the program, you must use a command line argument. The program accepts two formats for the command line argument. The standard format is:  python main.py test.net test.out
 where main.py is this file, test.net is the input file and test.out is the output file. The extended command line format is:   python main.py -i test -f
 This format will also accept an input file of test.net and produce an output file test.out. The '-f' flag represents that the output data will be calculated and displayed in
 the frequency domain. Change the flag to '-t' if you want to display the data in the time domain using IFFT.
+
+If you are using Spyder, enter the command line options as either of these three options:   
+main.py -i test -f             
+main.py -i test -t      
+main.py test.net test.out
+
+
 
 INPUT FILE FORMAT:
     
